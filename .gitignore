@@ -3,3 +3,4 @@
 /.vs
 .metadata/obj
 .metadata/bin
+Cargo.lock
