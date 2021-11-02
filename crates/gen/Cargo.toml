@@ -1,10 +1,10 @@
 [package]
-name = "gen"
+name = "windows_app_gen"
 version = "0.0.0"
 edition = "2018"
 publish = false
 
 [dependencies]
-reader = { package = "windows_reader", path = "../../deps/reader", version = "0.24.0" }
-gen = { package = "windows_gen", path = "../../deps/gen", version = "0.24.0" }
+reader = { package = "windows_reader",  version = "0.24.0" }
+gen = { package = "windows_gen", version = "0.24.0" }
 rayon = "1.5.1"

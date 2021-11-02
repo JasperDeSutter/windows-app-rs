@@ -1,5 +1,5 @@
 [package]
-name = "app"
+name = "windows-app"
 version = "0.0.0"
 edition = "2018"
 authors = []
@@ -12,8 +12,4 @@ exclude = []
 publish = false
 
 [workspace]
-include = ["crates/gen"]
-
-[dependencies]
-windows = "0.23.0"
-bindings = { path = "bindings" }
+members = ["crates/gen"]
