@@ -18,7 +18,7 @@ pub unsafe fn MddBootstrapInitialize<
 ) -> ::windows::core::Result<()> {
     #[cfg(windows)]
     {
-        #[link(name = "microsoft.windowsappruntime.bootstrap")]
+        #[link(name = "Microsoft.WindowsAppRuntime.Bootstrap")]
         extern "system" {
             fn MddBootstrapInitialize(
                 majorminorversion: u32,
@@ -41,7 +41,7 @@ pub unsafe fn MddBootstrapInitialize<
 pub unsafe fn MddBootstrapShutdown() {
     #[cfg(windows)]
     {
-        #[link(name = "microsoft.windowsappruntime.bootstrap")]
+        #[link(name = "Microsoft.WindowsAppRuntime.Bootstrap")]
         extern "system" {
             fn MddBootstrapShutdown();
         }
