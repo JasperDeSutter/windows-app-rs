@@ -2,13 +2,10 @@
 name = "sample_xamlapp"
 version = "0.0.0"
 publish = false
-edition = "2018"
+edition = "2021"
 
-[build-dependencies.windows-app]
-path = "../../../"
-features = [
-    "WindowsAppSdk_Foundation"
-]
+[build-dependencies.bootstrap]
+path = "../../bootstrap"
 
 [dependencies.windows]
 version = "0.35.0"

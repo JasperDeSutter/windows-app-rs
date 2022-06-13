@@ -1,7 +1,5 @@
 //! Utilities for bootstrapping an app that uses the Windows App SDK.
 
-pub mod deploy;
-
 use crate::Microsoft::WindowsAppSdk::Foundation::*;
 use windows::Win32::Storage::Packaging::Appx::{
     PACKAGE_VERSION, PACKAGE_VERSION_0, PACKAGE_VERSION_0_0,
